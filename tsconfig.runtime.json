@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "paths": { "@/*": ["src/*"] },
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "/tmp/calc-studio-js"
+  },
+  "include": ["src/lib/**/*.ts"]
+}
